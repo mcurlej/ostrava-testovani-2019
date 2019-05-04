@@ -18,3 +18,7 @@ def test_return_buzz():
 
 def test_return_fizzbuzz():
     assert fizzbuzz(15) == "fizzbuzz"
+
+
+def test_fail():
+    assert False
